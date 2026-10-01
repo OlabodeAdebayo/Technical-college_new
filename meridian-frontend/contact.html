@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact us | Meridian Technical College</title>
+<meta name="description" content="Hands-on technical training in electrical, mechanical, automotive, welding, plumbing and construction.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<main id="main"><section class="page-head"><div class="wrap"><h1>Contact us</h1><p>Visit, call or send us a message.</p></div></section><section class="sec alt" id="contact">
+  <div class="wrap contact">
+    <div>
+      <h2>Contact and location</h2>
+      <p><b>Address</b><br>1 College Road, Your City, Nigeria</p>
+      <p><b>Phone</b><br>+234 800 000 0000</p>
+      <p><b>Email</b><br>admissions@meridiantech.edu.ng</p>
+      <p><b>Opening hours</b><br>Monday to Friday, 8:00 am to 4:00 pm</p>
+    </div>
+    <form data-endpoint="contact/" novalidate>
+      <label for="n">Full name</label><input id="n" name="full_name" required autocomplete="name">
+      <label for="e">Email</label><input id="e" name="email" type="email" required autocomplete="email">
+      <label for="m">Message</label><textarea id="m" name="message" rows="4" required></textarea>
+      <p class="msg" id="formMsg" role="status"></p>
+      <button class="btn btn-navy" type="submit">Send message</button>
+    </form>
+  </div>
+</section></main>
+<div id="site-footer"></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

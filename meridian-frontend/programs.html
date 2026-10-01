@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical programs | Meridian Technical College</title>
+<meta name="description" content="Hands-on technical training in electrical, mechanical, automotive, welding, plumbing and construction.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<main id="main"><section class="page-head"><div class="wrap"><h1>Technical programs</h1><p>Find the program that fits your career goals.</p></div></section><section class="sec alt" id="programs">
+  <div class="wrap">
+    <h2>Explore our technical programs</h2>
+    <div class="tools">
+      <label class="sr" for="search">Search programs</label>
+      <input id="search" type="search" placeholder="Search programs, e.g. welding">
+      <div class="chips" id="chips" role="group" aria-label="Filter by field">
+        <button class="chip on" data-f="all">All</button>
+        <button class="chip" data-f="engineering">Engineering</button>
+        <button class="chip" data-f="electrical">Electrical</button>
+        <button class="chip" data-f="automotive">Automotive</button>
+        <button class="chip" data-f="construction">Construction</button>
+      </div>
+    </div>
+    <div class="grid3" id="programGrid"></div>
+    <p class="empty" id="empty" hidden>No program matches your search. Clear the search or choose "All".</p>
+  </div>
+</section></main>
+<div id="site-footer"></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/programs.js"></script>
+</body>
+</html>
